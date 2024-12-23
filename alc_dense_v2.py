@@ -1,5 +1,4 @@
 import numpy as np
-from onefactor import multifactor_series
 from numba import vectorize
 
 @vectorize('float64(float64, float64)', nopython=True)
